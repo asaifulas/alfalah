@@ -1140,7 +1140,7 @@ function generate_screenshot($pdf_path, $page_number, $screenshot_script, $outpu
     <div class="main-container">
         <div class="content-area">
             <div class="header">
-                <h1 id="pageTitle">Al-Falah RAG Chatbox</h1>
+                <h1 id="pageTitle">Al-Falah Syariah Chatbox</h1>
             </div>
             
             <div class="main-content" id="mainContent">
