@@ -1,0 +1,13 @@
+# Enable PHP
+AddHandler application/x-httpd-php .php
+
+# Allow access to screenshots
+<DirectoryMatch "^/.*/screenshots/">
+    Options Indexes
+    AllowOverride None
+    Require all granted
+</DirectoryMatch>
+
+# Rewrite for screenshot URLs
+RewriteEngine On
+RewriteRule ^screenshots/(.*)$ index.php?screenshot=$1 [L]

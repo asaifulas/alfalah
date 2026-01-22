@@ -1,0 +1,10 @@
+{
+  "sources": [
+    {
+      "type": "local_pdf",
+      "file_path": "charge_card_and_charge_card-i_PD.pdf",
+      "source_url": "https://www.bnm.gov.my/documents/20124/938039/charge_card_and_charge_card-i_PD.pdf",
+      "description": "Local PDF file from resources/data folder"
+    }
+  ]
+}
